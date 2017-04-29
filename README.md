@@ -4,6 +4,8 @@ Nes Search is a simple Phoenix example that uses [elastic_sync](https://github.c
 
 Never again do you need to roll your own Search :)
 
+![](http://i.imgur.com/2YUS5UU.png)
+
 ## Getting started
 
 ### Prereqs

@@ -1,0 +1,31 @@
+version: '3'
+services:
+  web:
+    image: alvarolizama/phoenix
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./src:/app
+    depends_on:
+      - postgres
+      - elasticsearch
+    environment:
+      - MIX_ENV=${MIX_ENV:-dev}
+      - PORT=4000
+      - HOST=0.0.0.0
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_NAME=nes_${MIX_ENV:-dev}
+      - DB_USERNAME=postgres
+      - ES_PORT=9200
+      - ES_HOST=elasticsearch
+    env_file:
+      - web-secrets.env
+    working_dir: /app
+    command: mix phx.server
+
+  postgres:
+    image: postgres
+
+  elasticsearch:
+    image: elasticsearch

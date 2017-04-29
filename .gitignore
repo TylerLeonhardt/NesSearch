@@ -1,0 +1,23 @@
+# Created by https://www.gitignore.io/api/elixir,phoenix
+
+### Elixir ###
+src/_build
+src/cover
+src/deps
+src/doc
+src/erl_crash.dump
+src/*.ez
+
+### Elixir Patch ###
+### Phoenix ###
+# Phoenix: a web framework for Elixir
+src/db
+src/node_modules/
+src/priv/static/
+src/config/prod.secret.exs
+src/rel
+
+# End of https://www.gitignore.io/api/elixir,phoenix
+
+# secrets
+web-secrets.env

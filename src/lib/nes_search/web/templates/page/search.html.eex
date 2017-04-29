@@ -1,0 +1,6 @@
+<h2>NES Search</h2>
+<div><input id="searchbox" class="col-lg-12 col-sm-12" /></div>
+<div id="results" class="col-lg-12 col-sm-12">
+</div>
+<script src="js/app.js">
+</script>

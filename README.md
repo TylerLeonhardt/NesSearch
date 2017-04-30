@@ -2,9 +2,11 @@
 
 Nes Search is a simple Phoenix example that uses [elastic_sync](https://github.com/promptworks/elastic_sync) which supplies Phoenix projects a drop-in solution for adding search to ecto models using the power of [ElasticSearch](https://www.elastic.co/).
 
-Never again do you need to roll your own Search :)
+Never again do you need to roll your own Search for your Phoenix project :)
 
 ![](http://i.imgur.com/2YUS5UU.png)
+
+This example implements a simple search through NES games.
 
 ## Getting started
 

@@ -4,7 +4,7 @@ Nes Search is a simple Phoenix example that uses [elastic_sync](https://github.c
 
 Never again do you need to roll your own Search for your Phoenix project :)
 
-![](http://i.imgur.com/2YUS5UU.png)
+![](http://i.imgur.com/ityxNA1.png)
 
 This example implements a simple search on top of Elastic Search through all NES games.
 

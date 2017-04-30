@@ -16,7 +16,9 @@
       <header class="header">
         <nav role="navigation">
           <ul class="nav nav-pills pull-right">
-            <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
+            <li><a href="http://www.phoenixframework.org/docs">Phoenix</a></li>
+            <li><a href="https://github.com/promptworks/elastic_sync">Elastic Sync</a></li>
+            <li><a href="https://github.com/tylerl0706/NesSearch">This</a></li>
           </ul>
         </nav>
         <span class="logo"></span>

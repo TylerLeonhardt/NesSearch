@@ -16,8 +16,7 @@ defmodule NesSearch.Web.Router do
   scope "/", NesSearch.Web do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
-    get "/search", PageController, :search
+    get "/", PageController, :search
   end
 
   # Other scopes may use custom stacks.

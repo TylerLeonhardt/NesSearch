@@ -2,7 +2,7 @@
 
 Nes Search is a simple Phoenix example that uses [elastic_sync](https://github.com/promptworks/elastic_sync) which supplies Phoenix projects a drop-in solution for adding search to ecto models using the power of [ElasticSearch](https://www.elastic.co/).
 
-Never again do you need to roll your own Search :)
+Never again do you need to roll your own Search for your Phoenix project :)
 
 ## Getting started
 
@@ -17,4 +17,4 @@ Never again do you need to roll your own Search :)
 5. I supplied a CSV full of data. you can use your favorite method of loading the data to the `/api/games` endpoint (POST request)
 6. `docker-compose up web`
 
-At this point, you should be able to navigate to `http://localhost:4000/search` to try searching
+At this point, you should be able to navigate to `http://localhost:4000/` to try searching

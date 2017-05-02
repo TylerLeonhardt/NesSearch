@@ -13,6 +13,8 @@ This example implements a simple search on top of Elastic Search through all NES
 ### Prereqs
 1. Docker
 
+
+NOTE: I HAVE NOT TESTED THESE STEPS YET
 ### Steps
 1. Clone or download the zip (and extract)
 2. `echo "DB_PASSWORD=postgres" > web-secrets.env` NOTE: don't forget to change the password later on
